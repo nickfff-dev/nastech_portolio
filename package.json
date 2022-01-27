@@ -1,0 +1,27 @@
+{
+  "name": "nas_portfolio",
+  "version": "1.0.0",
+  "description": "my mern stack portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "nastech87",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "nodemailer": "^6.7.2",
+    "nodemailer-smtp-transport": "^2.7.4"
+    
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+ }
+}
