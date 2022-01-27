@@ -17,3 +17,51 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+
+.logo{
+  height:80px;
+  width:120px;
+}
+
+.hr{
+
+    
+    margin-bottom: 1rem;
+    border: 0;
+    margin-top:0;
+    border-top: 1px dotted rgba(215, 82, 125, 0.5);
+    
+  
+}
+
+.header{
+  display: flex-inline;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.bird{
+  font-weight: 900px;
+  font-style: italic;
+  color: #df577e;
+}
+
+.title{
+text-align: center;
+display: block;
+justify-content: center;
+}
+
+.nav-link{
+  color:#f5bb3e;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.subheading{
+  font-weight: 900px;
+  font-style: italic;
+  color: #f5bb3e;
+  font-size: 20px;
+}
