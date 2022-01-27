@@ -64,4 +64,30 @@ justify-content: center;
   font-style: italic;
   color: #f5bb3e;
   font-size: 20px;
+
+
+}
+
+
+
+.devicons{
+  font-size: 35px;
+  padding-left: 3px;
+  color: #f5bb3e;
+  font-weight: 200;
+}
+
+li{
+  list-style: none;
+  display: inline;
+}
+
+
+.nav-link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+p{
+  color: #01c29d;
 }

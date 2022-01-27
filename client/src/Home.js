@@ -15,7 +15,7 @@ class Home extends React.Component{
         return(
             <div className="row header container-fluid">
               <div className="col-md-4">
-              <img className="img=fluid logo"  src={Logo}/>
+              <img className="img=fluid logo "  src={Logo}/>
               </div>
              
                 <div className="mt-3  col-md-4 title mx-auto">
