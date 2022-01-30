@@ -15,8 +15,8 @@ class Fronth extends React.Component{
         <div className="row align-items-center">
             <div className="col-md">
                 <h1 className="col-md- mb-4">Full Stack Dev</h1>
-                <h2 className="col-md- mb-0">I am a full stack software developer with more than 5000 hours building, maintaining and deploying web applications .I can adapt onto any
-                                    technology rapidly hence I'm flexible with any tech stack. Im a passionate, diligent dev who learns continuously. </h2>
+                <h2 className="col-md- mb-0">I am a full stack software developer with more than 5000 <br/>hours building, maintaining and deploying web applications <br/>I can adapt onto any
+                                    technology rapidly hence I'm flexible with <br/> any tech stack. Im a passionate, diligent dev who learns continuously. </h2>
             </div>
             <div className="col- ">
                 <div className="row py-4 px-5 mt-5 masthead-cards">

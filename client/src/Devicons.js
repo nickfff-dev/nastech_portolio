@@ -11,7 +11,7 @@ class Devicons extends React.Component{
          
   
 <div id="flick" className="flicking-viewport text-center ">
-<ReactTooltip />
+<ReactTooltip type = 'info' textColor="white" backgroundColor="#00755E"  arrowColor="white" />
   <div className="flicking-camera">
     <span className=" btn ml-2 is-white devicons devicons-github" ref={ref => this.fooRef = ref} data-tip='github' onClick={() => { ReactTooltip.hide(this.fooRef) }}>    </span>
   

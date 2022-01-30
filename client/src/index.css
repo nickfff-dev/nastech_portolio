@@ -28,9 +28,9 @@ html {
 
 
 .bird{
-  font-weight: 900px;
+  font-weight: 900;
   font-style: italic;
-  color: #df577e;
+  color: #BDE4A8;
 }
 
 .title{
@@ -41,14 +41,14 @@ justify-content: center;
 }
 
 .nav-link{
-  color:#e9d8a6;
+  color:#BDE4A8;
   text-transform: capitalize;
   font-style: italic;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .subheading{
-  font-weight: 900px;
+  font-weight: 900;
   font-style: italic;
   color: #e9d8a6;
   font-size: 20px;
@@ -60,12 +60,12 @@ justify-content: center;
 
 .devicons{
   font-size: 25px;
-  color:#df577e;
+  color:#C4FCF0;
   font-weight: 200;
 
 }
 
-li{
+nav li{
   list-style: none;
   display: inline;
 }
@@ -92,7 +92,7 @@ li{
 
 .list-group-item{
   background: transparent;
-  border: 2px solid rgba(233,216,166, 0.3);
+  
   color: #e9d8a6;
 }
 
@@ -103,7 +103,7 @@ li{
 .list-group-item:hover{
   background: transparent;
   color: white;
-  border-color: white;
+ 
 }
 
 
@@ -126,5 +126,9 @@ li{
 .navbar{
   display: flex;
   align-items: flex-end;
+}
+
+.skills{
+  color: #C4FCF0;
 }
 
