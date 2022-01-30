@@ -1,4 +1,7 @@
 import React from "react";
+import ReactTooltip from 'react-tooltip';
+
+
 
 
 
@@ -6,81 +9,74 @@ import React from "react";
 class About extends React.Component {
 
 
+    
+
+
     render(){
         return(
-   <section>
-                    <div className="media col-sm-5 mt-4 mx-auto">
-  <div className="media-body mt-4 mx-auto ">
-    <p>I am a MERN stack developer with more
-than 5000 hours of building, maintaining and
-deploying single page
-applications, scripts, bots and scrapers. I adapt to any
-technology rapidly hence  flexibility. A passionate, diligent dev
-who seeks to learn continuously.</p>
-  </div>
-</div>
-<div className="mx-auto col-sm-5" >
-    <ul className="list ">
-   <li > <i  className="devicons devicons-github">
-       </i>  </li>
-    <li> <i className="devicons devicons-react">
-         </i>  </li>
-    <li> <i className="devicons devicons-nodejs">
-            </i>  </li>
+   
+        <div className='row'>
 
-    <li> <i className="devicons devicons-javascript">
-            </i>  </li>
+         
+         
     
-    <li> <i className="devicons devicons-html5">
-            </i>  </li>
-    <li> <i className="devicons devicons-mongodb">
-            </i>  </li>
 
-    <li> <i className="devicons devicons-python"></i> </li>
-    <li> <i className="devicons devicons-angular"></i> </li>
-    <li> <i className="devicons devicons-npm"></i> </li>
-    <li> <i className="devicons devicons-aws"></i> </li>
-    <li> <i className="devicons devicons-heroku"></i> </li>
+
+
+
+            <section>
   
 
-    </ul>
-</div>
-<div className="row m-0">
+<div className="row m-2">
     <div className="col-sm-4 mx-auto">
-        <>Frontend</>
-<p>
-JavaScript, TypeScript, React,
+<a href="github.com/nickfff-dev" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1 stack">Front End</h5>
+      
+    </div>
+    <p class="mb-1">JavaScript, TypeScript, React,
 Redux, Redux-Thunk/Saga, Vue, VueX,
 HTML5, CSS3, Styled components,
-SCSS, Webpack, Babel.
-</p>
-
-        
-       
-       
+SCSS, Webpack, Babel.</p>
+  
+  </a>
         
     </div>
-    <div className="col-sm-4">
-    <>Back end:</>
-<p>
- Node.js, Express.js, MongoDB,
+    <div className="clearfix col-sm-4">
+    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1 stack">Back End:</h5>
+      
+    </div>
+    <p class="mb-1">Node.js, Express.js, MongoDB,
 Mongoose, Nodemailer, Node-Geocoder,
 Stripe, Razorpay, Paypal API, Coinbase
-commerce,
-</p>
+commerce.</p>
+    
+  </a>
+
     </div>
-    <div className="col-sm-4">
-    <>DevOps:</>
-<p>
-Git, Github, Heroku, Digital Ocean,
+    <div className="clearfix col-sm-4">
+    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1 stack">Dev Ops</h5>
+      
+    </div>
+    <p class="mb-1 stack">
+    Git, Github, Heroku, Digital Ocean,
 Cloudinary, AWS S3, React Dev Tools, Redux
-Dev tools, SSH, Unit testing, Intergration
-testing, Continous Integration/Continous
+Dev tools, SSH, Continous
 Deployment.
-</p>
+    </p>
+  </a>
     </div>
 </div>
+
+
+
    </section>
+        </div>
+  
             
         )
     }

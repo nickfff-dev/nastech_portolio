@@ -1,7 +1,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black ;
+  background-color: #001219 ;
   font-family: "Baloo 2", sans-serif;
  
   text-rendering: optimizeLegibility;
@@ -24,22 +24,8 @@ html {
   width:120px;
 }
 
-.hr{
 
-    
-    margin-bottom: 1rem;
-    border: 0;
-    margin-top:0;
-    border-top: 1px dotted rgba(215, 82, 125, 0.5);
-    
-  
-}
 
-.header{
-  display: flex-inline;
-  align-items: top;
-  justify-content: space-between;
-}
 
 .bird{
   font-weight: 900px;
@@ -51,18 +37,20 @@ html {
 text-align: center;
 display: block;
 justify-content: center;
+
 }
 
 .nav-link{
-  color:#f5bb3e;
+  color:#e9d8a6;
   text-transform: capitalize;
   font-style: italic;
+  font-size: 20px;
 }
 
 .subheading{
   font-weight: 900px;
   font-style: italic;
-  color: #f5bb3e;
+  color: #e9d8a6;
   font-size: 20px;
 
 
@@ -71,10 +59,10 @@ justify-content: center;
 
 
 .devicons{
-  font-size: 35px;
-  padding-left: 3px;
-  color: #f5bb3e;
+  font-size: 25px;
+  color:#df577e;
   font-weight: 200;
+
 }
 
 li{
@@ -86,8 +74,57 @@ li{
 .nav-link:hover{
   text-decoration: underline;
   cursor: pointer;
+  color: white;
 }
 
-p{
-  color: #01c29d;
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+
 }
+
+
+
+.list-group-item{
+  background: transparent;
+  border: 2px solid rgba(233,216,166, 0.3);
+  color: #e9d8a6;
+}
+
+
+
+
+
+.list-group-item:hover{
+  background: transparent;
+  color: white;
+  border-color: white;
+}
+
+
+
+
+
+.intro{
+  color: #e9d8a6;
+}
+
+
+
+
+
+.devicons:hover{
+  color: white;
+  
+}
+
+.navbar{
+  display: flex;
+  align-items: flex-end;
+}
+
