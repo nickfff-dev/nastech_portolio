@@ -1,3 +1,4 @@
 {
-    "prettier.enableDebugLogs": true
+    "editor.formatOnType": true,
+    "vetur.format.defaultFormatter.css": "none"
 }
