@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "xabikos.ReactSnippets"
+        "xabikos.reactsnippets",
+        "esbenp.prettier-vscode"
     ]
 }
