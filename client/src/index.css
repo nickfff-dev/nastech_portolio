@@ -134,6 +134,8 @@ nav li{
 .techs li{
   list-style: none;
   color: #BDE4A8;
+  display: inline;
+  padding-right: 5px;
 
   
 }

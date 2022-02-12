@@ -10,8 +10,9 @@ function App() {
     <div className="App">
      <Home/>
      <Fronth/>
-     <Devicons/>
+     
       <About/>
+      <Devicons/>
     
       
       
