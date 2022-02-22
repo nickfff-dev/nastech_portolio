@@ -1,6 +1,6 @@
 import React from 'react'
 import './Fronth.css'
-
+import Mania from './Mania'
 
 class Fronth extends React.Component{
     constructor(props){
@@ -13,13 +13,14 @@ class Fronth extends React.Component{
             <header className="masthead ">
     <div className="container-fluid">
         <div className="row align-items-center">
-            <div className="col-md">
+            <div className="col">
                 <h1 className="col-md- mb-4">Introduction</h1>
                 <h2 className="col-md- mb-0">I am a full stack software developer with more than 5000 <br/>hours building, maintaining and deploying web applications <br/>I can adapt onto any
                                     technology rapidly hence I'm flexible with <br/> any tech stack. Im a passionate, diligent dev who learns continuously. </h2>
             </div>
-            <div className="col- ">
-                <div className="row py-4 px-5 mt-5 masthead-cards">
+                        <div className="col ">
+                            <Mania/>
+                {/* <div className="row py-4 px-5 mt-5 masthead-cards">
                     <div className="row d-flex ">
                         <a href="#" className="w-30 pb-4">
                             <div className="card border-0 border-bottom-red shadow-lg shadow-hover">
@@ -68,7 +69,7 @@ class Fronth extends React.Component{
                         
                     </div>
                     
-                </div>
+                </div> */}
             </div>
         </div>
     </div>

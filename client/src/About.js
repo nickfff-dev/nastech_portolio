@@ -1,4 +1,5 @@
 import React from "react";
+import Mania from "./Mania";
 
 
 
@@ -16,7 +17,7 @@ class About extends React.Component {
 
       <div className='container-fluid  mt-5 '>
         <div className="row">
-      
+       
             <ul className="techs col-md-4">
               <h5 className="mb-1 stack">Front End</h5>
               <li><span > Javascript</span></li>

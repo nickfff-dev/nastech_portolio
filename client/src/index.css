@@ -55,6 +55,11 @@ justify-content: center;
 }
 
 
+#sawa{
+  height: auto;
+  width: 100%
+}
+
 
 .devicons{
   font-size: 25px;
