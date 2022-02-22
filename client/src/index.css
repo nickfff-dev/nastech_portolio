@@ -28,7 +28,6 @@ body {
 
 .bird{
   font-weight: 900;
-  font-style: italic;
   color: #BDE4A8;
 }
 
@@ -42,8 +41,8 @@ justify-content: center;
 .nav-link{
   color:#BDE4A8;
   text-transform: capitalize;
-  font-style: italic;
-  font-size: 25px;
+  
+  font-size: 20px;
 }
 
 .subheading{

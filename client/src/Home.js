@@ -15,15 +15,11 @@ class Home extends React.Component{
     render(){
         return(
             <div className="row  container-fluid">
-              <div className="col-md- ">
-              <img className="img-fluid logo"  src={Logo}/>
+              <div className="col  mt-4 ">
+              <h3 className="bird">Nas_Tech <span>.</span></h3>
               </div>
              
-                <div className="mt-3  col-sm title ">
-                
-                    <h1 className="bird">UI BIRD</h1>
-
-                </div>
+             
 
                 <div className="mt-3 col- mx-auto">
                     <ul className="nav row">
