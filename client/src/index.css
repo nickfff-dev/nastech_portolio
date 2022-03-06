@@ -113,17 +113,17 @@ nav li{
 }
 
 
-.path{
+path{
   fill: none;
   stroke: #BDE4A8;
 }
 
-.rect{
+rect{
   fill: none;
   stroke: #BDE4A8;
 }
 
-.polygon{
+polygon{
   fill: none;
   stroke: #BDE4A8;
 }
