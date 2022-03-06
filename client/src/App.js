@@ -6,6 +6,7 @@ import Fronth from './Fronth';
 import { Parallax} from 'react-parallax';
 import image1 from "./sectionsbg.jpg"
 import image2 from "./5197240.svg"
+import image3 from "./headers.svg"
 
 
 
@@ -14,7 +15,7 @@ function App() {
     <div className="App">
    
       <Parallax
-        bgImage={image1}
+        bgImage={image3}
         bgImageAlt="image1"
         strength={500}
         className="container-fluid"
@@ -22,13 +23,13 @@ function App() {
         
       
       >
-         <div style={{ height: "500px" }}>
+         <div style={{ height: "1000px" }}>
          
         </div>
       </Parallax>
       <h2>| | |</h2>
       <Parallax
-         bgImage={image1}
+         bgImage={image2}
         strength={500}
         
       
