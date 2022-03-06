@@ -4,10 +4,8 @@ import About from './About';
 import Devicons from './Devicons'
 import Fronth from './Fronth';
 import { Parallax, Background} from 'react-parallax';
-import image1 from "./sectionsbg.jpg"
-import image2 from "./1055.jpg"
-import Mania from './Mania';
-import image3 from "./855_programming_website.jpg"
+import image1 from "./sectionsbg.png"
+
 
 
 function App() {
@@ -23,12 +21,12 @@ function App() {
       
       >
          <div style={{ height: "500px" }}>
-         <Mania/>
+         
         </div>
       </Parallax>
       <h2>| | |</h2>
       <Parallax
-        bgImage={image2}
+        bgImage={image1}
         bgImageAlt="image2"
         strength={500}
         
@@ -42,7 +40,7 @@ function App() {
       </Parallax>
       <h2>| | |</h2>
       <Parallax
-        bgImage={image3}
+        bgImage={image1}
         bgImageAlt="image3"
         strength={500}
         
