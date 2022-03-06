@@ -3,8 +3,9 @@ import About from './About';
 
 import Devicons from './Devicons'
 import Fronth from './Fronth';
-import { Parallax, Background} from 'react-parallax';
-import image1 from "./sectionsbg.png"
+import { Parallax} from 'react-parallax';
+import image1 from "./sectionsbg.jpg"
+import image2 from "./5197240.svg"
 
 
 
@@ -17,6 +18,7 @@ function App() {
         bgImageAlt="image1"
         strength={500}
         className="container-fluid"
+      
         
       
       >
@@ -26,13 +28,13 @@ function App() {
       </Parallax>
       <h2>| | |</h2>
       <Parallax
-        bgImage={image1}
-        bgImageAlt="image2"
+         bgImage={image1}
         strength={500}
         
       
       >
         <div style={{ height: "500px" }}>
+          <Devicons/>
           <About/>
         </div>
         
