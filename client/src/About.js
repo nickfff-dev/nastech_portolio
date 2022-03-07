@@ -31,7 +31,7 @@ class About extends React.Component {
           
       
             <ul className="techs col-md-4 ">
-              <h5 class="mb-1 stack text-center">Back End</h5>
+              <h5 className="mb-1 stack text-center">Back End</h5>
               <li><span>Nodejs</span></li>
               <li><span>Express.js</span></li>
               <li><span>MongoDB</span></li>
@@ -42,7 +42,7 @@ class About extends React.Component {
           
           
             <ul className="techs col-md-4">
-              <h5 class="mb-1 stack">Dev Ops</h5>
+              <h5 className="mb-1 stack">Dev Ops</h5>
               <li><span>Git</span></li>
               <li><span>Github</span></li>
               <li><span>Heroku</span></li>

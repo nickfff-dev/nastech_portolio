@@ -1,5 +1,5 @@
 
-*, *:before, *:after {
+* {
   box-sizing: border-box;
 }
 
@@ -12,6 +12,7 @@ body {
  
   background:  rgb(2,0,36)  ;
   font-family: "Baloo 2", sans-serif;
+  margin: auto;
 
 }
 
@@ -28,7 +29,7 @@ body {
 
 .bird{
   font-weight: 900;
-  color: #BDE4A8;
+  color: #fff;
 }
 
 .title{
@@ -39,7 +40,7 @@ justify-content: center;
 }
 
 .nav-link{
-  color:#BDE4A8;
+  color:#fff;
   text-transform: capitalize;
   
   font-size: 20px;
@@ -85,14 +86,10 @@ nav li{
 
 
 
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-  
-
+.wazi{
+  background-color: #ea227a;
 }
+
 
 
 
@@ -115,24 +112,28 @@ nav li{
 
 path{
   fill: none;
-  stroke: #BDE4A8;
+  stroke: #fff;
 }
 
 rect{
   fill: none;
-  stroke: #BDE4A8;
+  stroke: #fff;
 }
 
 polygon{
   fill: none;
-  stroke: #BDE4A8;
+  stroke: #fff;
 }
 
 circle{
   fill: none;
-  stroke: #BDE4A8;
+  stroke: #fff;
 }
-
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  
+}
 
 
 
@@ -141,8 +142,47 @@ circle{
 }
 
 
+.nav{
+  display:flex;
+  justify-content: flex-end;
+  padding-right: 200px;
+  align-items: baseline;
+  
+  transition: all .7s ease-in
+  
+}
+
+.scrolled{
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.scrolled2{
+
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  z-index: 1;
+}
 
 
+.kadot{
+  color:#ea227a;
+}
+
+.logo{
+  display:flex;
+  justify-content:flex-start;
+  padding-left: 130px;
+  align-items: baseline;
+ 
+
+}
 
 .devicons:hover{
   color: white;
@@ -160,7 +200,7 @@ circle{
 
 .techs li{
   list-style: none;
-  color: #BDE4A8;
+  color: #fff;
   display: inline;
   padding-right: 5px;
 
@@ -168,7 +208,7 @@ circle{
 }
 
 .stack{
-  color: #BDE4A8
+  color: #fff
 }
 
 

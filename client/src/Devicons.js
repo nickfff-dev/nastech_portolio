@@ -8,15 +8,20 @@ class Devicons extends React.Component{
         return(
         
            
-         
-  
-<div  className=" text-center ">
+
+            
+
+<div  className=" text-center mt-5 ">
 <ReactTooltip type = 'info' textColor="white" backgroundColor="#00755E"  arrowColor="white" />
 
     <span className=" btn ml-2 is-white devicons devicons-github" ref={ref => this.fooRef = ref} data-tip='github' onClick={() => { ReactTooltip.hide(this.fooRef) }}>    </span>
   
        
-   <span className=" btn button ml-4 is-white devicons devicons-react" ref={ref => this.fooRef = ref} data-tip='react' onClick={() => { ReactTooltip.hide(this.fooRef) }} > </span>
+                <span className=" btn button ml-4 is-white devico.
+   
+   
+   
+   ns devicons-react" ref={ref => this.fooRef = ref} data-tip='react' onClick={() => { ReactTooltip.hide(this.fooRef) }} > </span>
    <span className=" btn button ml-4 is-white devicons devicons-nodejs" ref={ref => this.fooRef = ref} data-tip='node-js' onClick={() => { ReactTooltip.hide(this.fooRef) }}>  </span>
 
    <span className=" btn button ml-4 is-white devicons devicons-javascript" ref={ref => this.fooRef = ref} data-tip='javascript'onClick={() => { ReactTooltip.hide(this.fooRef) }}>  </span>
