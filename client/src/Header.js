@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from './logo.png'
 import About from "./About";
 
 
@@ -32,11 +31,15 @@ class Header extends React.Component{
           });
         }
         {
-            this.state.scrolled && this.mareF.current.classList.add("scrolled") 
-            this.state.scrolled && this.maref2.current.classList.add("scrolled2");
+        this.state.scrolled && this.mareF.current.classList.add("scrolled") 
+        this.state.scrolled && this.maref2.current.classList.add("scrolled2");
+        this.state.scrolled && document.getElementById("kadot").classList.add("kadote2")
+      
             
-            !this.state.scrolled && this.mareF.current.classList.remove("scrolled");
-            !this.state.scrolled && this.maref2.current.classList.remove("scrolled2");
+        !this.state.scrolled && this.mareF.current.classList.remove("scrolled");
+        !this.state.scrolled && this.maref2.current.classList.remove("scrolled2");
+        !this.state.scrolled && document.getElementById("kadot").classList.remove("kadote2")
+        
             
            
           
@@ -59,20 +62,25 @@ class Header extends React.Component{
 
     render(){
         return(
+          
+            
+          <div className="col-md-12">
             <div className="row mt-2" ref={this.maref3}>
-              <div className="col-md-6 logo" ref={this.mareF}>
-              <h3 className="bird">Nas_Tech <span className="kadot">.</span></h3>
+            <div className="col-md-6 logo" ref={this.mareF}>
+              <h3 className="bird">Nas_Tech <span className="kadot" id="kadot">.</span></h3>
               </div>
              
              
 
                 <div className="col-md-6 " ref={this.maref2}>
                 <ul className="nav">
-                        <li className="pr-2 nav-link nav-pill"> home</li>
+                        <li className="pr-2 nav-link"> home</li>
                         <li className="pr-2 nav-link"> about</li>
                         <li className="pr-2 nav-link"> contact</li>
                     </ul>
                 </div>
+            </div>
+              
                     
                 
 

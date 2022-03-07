@@ -12,16 +12,24 @@ body {
   font-family: "Baloo 2", sans-serif;
   margin: auto;
   box-sizing: border-box;
+  color: white;
 
 }
 
-
-
-
-.logo{
-  height:80px;
-  width:120px;
+.more{
+  color: white;
+  
+  font-family: "Baloo 2", sans-serif;
+  
 }
+
+.wah{
+  padding: 150px 0px;
+  padding-bottom: 130px;
+  
+}
+
+
 
 
 
@@ -86,7 +94,8 @@ nav li{
 
 
 .wazi{
-  background-color: #ea227a;
+  background: #ea227a;
+
 }
 
 
@@ -109,32 +118,17 @@ nav li{
 }
 
 
-path{
-  fill: none;
-  stroke: #fff;
-}
 
-rect{
-  fill: none;
-  stroke: #fff;
-}
-
-polygon{
-  fill: none;
-  stroke: #fff;
-}
-
-circle{
-  fill: none;
-  stroke: #fff;
-}
 html, body {
   max-width: 100%;
   overflow-x: hidden;
   
 }
 
-
+.gani{
+  
+  z-index: 200;
+  position: absolute}
 
 .intro{
   color: #e9d8a6;
@@ -147,7 +141,7 @@ html, body {
   padding-right: 200px;
   align-items: baseline;
   
-  transition: all .7s ease-in
+  
   
 }
 
@@ -157,11 +151,12 @@ html, body {
   top: 0px;
   left: 0px;
   width: 100%;
+  background: rgba(234, 34, 122, 0.8);
   z-index: 1;
 }
 
 .scrolled2{
-
+  background: rgba(234, 34, 122, 0.8);
   position: fixed;
   top: 0px;
   right: 0px;
@@ -174,11 +169,15 @@ html, body {
   color:#ea227a;
 }
 
+.kadote2{
+  color: white;
+}
+
 .logo{
   display:flex;
   justify-content:flex-start;
   padding-left: 130px;
-  align-items: baseline;
+ padding-bottom: 5px;
  
 
 }
