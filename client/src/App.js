@@ -39,7 +39,7 @@ class App extends React.Component {
           bgImage={image3}
           bgImageAlt="image1"
           strength={600}
-          className ="mb-4"
+          className ="mb-4 border-top"
     
           
         

@@ -145,6 +145,10 @@ html, body {
   
 }
 
+.border-top{
+  border-top-color: rgba(234, 34, 122, 1);
+}
+
 .scrolled{
 
   position: fixed;
@@ -152,7 +156,7 @@ html, body {
   left: 0px;
   width: 100%;
   background: rgba(234, 34, 122, 0.8);
-  z-index: 1;
+  z-index: 10000;
 }
 
 .scrolled2{
@@ -161,7 +165,7 @@ html, body {
   top: 0px;
   right: 0px;
   width: 100%;
-  z-index: 1;
+  z-index: 10000;
 }
 
 
