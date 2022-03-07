@@ -1,4 +1,4 @@
-import Home from './Home';
+import Header from './Header';
 import About from './About';
 import React from 'react';
 import Devicons from './Devicons'
@@ -33,7 +33,7 @@ class App extends React.Component {
     
     return (
       <div className="container-fluid">
-        <Home />
+        <Header />
         <Parallax
           bgImage={image3}
           bgImageAlt="image1"

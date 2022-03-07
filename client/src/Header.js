@@ -3,7 +3,7 @@ import Logo from './logo.png'
 import About from "./About";
 
 
-class Home extends React.Component{
+class Header extends React.Component{
     constructor(props){
         super(props)
         this.state = {
@@ -17,14 +17,14 @@ class Home extends React.Component{
     onScrollHandler() {
         const offset = window.pageYOffset;
         if (
-          offset > 100 &&
+          offset > 10 &&
           !this.state.scrolled
         ) {
           this.setState({
             scrolled: true
           });
         } else if (
-          offset <= 100 &&
+          offset <= 10 &&
           this.state.scrolled
         ) {
           this.setState({
@@ -59,16 +59,16 @@ class Home extends React.Component{
 
     render(){
         return(
-            <div className="row mt-4" ref={this.maref3}>
+            <div className="row mt-2" ref={this.maref3}>
               <div className="col-md-6 logo" ref={this.mareF}>
               <h3 className="bird">Nas_Tech <span className="kadot">.</span></h3>
               </div>
              
              
 
-                <div className="col-md-6" ref={this.maref2}>
+                <div className="col-md-6 " ref={this.maref2}>
                 <ul className="nav">
-                        <li className="pr-2 nav-link"> home</li>
+                        <li className="pr-2 nav-link nav-pill"> home</li>
                         <li className="pr-2 nav-link"> about</li>
                         <li className="pr-2 nav-link"> contact</li>
                     </ul>
@@ -82,4 +82,4 @@ class Home extends React.Component{
     }
 }
 
-export default Home;
+export default Header;
