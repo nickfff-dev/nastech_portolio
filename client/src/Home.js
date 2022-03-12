@@ -7,14 +7,21 @@ class Home extends Component {
     constructor(props) {
         super(props)
 
-    }
-    componentDidMount() {
-        anime({
+	}
+	
+	componentDidMount() {
+		const tl = anime.timeline({
+			easing: 'easeOutExpo',
+			duration: 1000
+
+		})
+		tl 
+        .add({
             targets: "#Layer_2 path",
             strokeDashoffset: [anime.setDashoffset, 0],
             tranlateX: [0, 200],
-        easing: 'easeInOutSine',
-        duration: 1000,
+           easing: 'easeInOutSine',
+            duration: 1000,
            
         
             direction: 'normal',
@@ -22,17 +29,18 @@ class Home extends Component {
             loop: true
 		})
 		
-		anime({
+		.add({
             targets: "#Layer_3 polygon",
             opacity: [0, 1],
-        easing: 'easeInOutSine',
-        duration: 1000,
+           easing: 'easeInOutSine',
+           duration: 1000,
         
         
             direction: 'normal',
             
             loop: true
      })
+	 
  }
 
 
@@ -53,7 +61,35 @@ class Home extends Component {
                         <button className='btn btn-outline-secondary more  mt-5'> Read More</button>
                     </div>
                     <div className='col-sm-5 text-center'>
-                        <img src={yetu} alt='yetu' className='img-fluid gani' />
+						<img src={yetu} alt='yetu' className='img-fluid gani' />
+						<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 447.3 355.9" enableBackground="new 0 0 447.3 355.9" xmlSpace="preserve">
+<path opacity="0.8" fill="#7C1DC9" enableBackground="new    " d="M371.9,193.7l3.3,1.9V188l-3.3-1.9V193.7z M377.2,196.7l3.3,1.9
+	v-14l-3.3-1.9V196.7z M382.4,179.4v20.3l3.3,1.9v-20.3L382.4,179.4z"/>
+<g>
+	<polygon opacity="0.8" fill="#7C1DC9" enableBackground="new    " points="147,109.4 147,97.1 153.6,107.1 	"/>
+	<polygon opacity="0.6" fill="#7C1DC9" enableBackground="new    " points="138,104.3 138,92 144.6,101.9 	"/>
+	<polygon opacity="0.4" fill="#7C1DC9" enableBackground="new    " points="128.9,99.1 128.9,86.8 135.6,96.8 	"/>
+	<polygon opacity="0.25" fill="#7C1DC9" enableBackground="new    " points="119.9,93.9 119.9,81.6 126.5,91.6 	"/>
+	<polygon opacity="0.15" fill="#7C1DC9" enableBackground="new    " points="110.9,88.7 110.9,76.5 117.5,86.4 	"/>
+</g>
+<g>
+	<polygon opacity="0.8" fill="#7C1DC9" enableBackground="new    " points="337.3,36.2 337.3,48.5 330.7,38.5 	"/>
+	<polygon opacity="0.6" fill="#7C1DC9" enableBackground="new    " points="346.4,41.3 346.4,53.6 339.7,43.7 	"/>
+	<polygon opacity="0.4" fill="#7C1DC9" enableBackground="new    " points="355.4,46.5 355.4,58.8 348.8,48.8 	"/>
+	<polygon opacity="0.25" fill="#7C1DC9" enableBackground="new    " points="364.4,51.7 364.4,64 357.8,54 	"/>
+	<polygon opacity="0.15" fill="#7C1DC9" enableBackground="new    " points="373.5,56.8 373.5,69.1 366.8,59.2 	"/>
+</g>
+<g opacity="0.8">
+	<polygon opacity="0.6" fill="#7C1DC9" enableBackground="new    " points="81.4,238.3 85.9,240.9 88.1,239.6 83.6,237 	"/>
+	<polygon opacity="0.8" fill="#7C1DC9" enableBackground="new    " points="84.8,236.3 89.2,238.9 91.6,237.5 87.2,235 	"/>
+	<polygon opacity="0.3" fill="#7C1DC9" enableBackground="new    " points="74.8,242.1 79.2,244.7 80.9,243.7 76.4,241.1 	"/>
+	<polygon opacity="0.15" fill="#7C1DC9" enableBackground="new    " points="72.5,243.4 77,246 77.8,245.6 73.4,243 	"/>
+	<polygon opacity="0.5" fill="#7C1DC9" enableBackground="new    " points="78.1,240.2 82.6,242.8 84.5,241.7 80,239.1 	"/>
+	<polygon fill="#7C1DC9" points="84.4,232 96.6,239 98.8,230.7 	"/>
+</g>
+</svg>
+
                        
 <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 447.3 355.9" enableBackground="new 0 0 447.3 355.9" xmlSpace="preserve">
