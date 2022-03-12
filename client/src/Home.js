@@ -15,7 +15,19 @@ class Home extends Component {
             tranlateX: [0, 200],
         easing: 'easeInOutSine',
         duration: 1000,
-            delay: function(el, i) { return i * 250 },
+           
+        
+            direction: 'normal',
+            
+            loop: true
+		})
+		
+		anime({
+            targets: "#Layer_3 polygon",
+            opacity: [0, 1],
+        easing: 'easeInOutSine',
+        duration: 1000,
+        
         
             direction: 'normal',
             
