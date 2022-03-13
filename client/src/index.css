@@ -29,6 +29,41 @@ body {
   
 }
 
+@media screen and (max-width: 768px) {
+  .introtxt{
+    font-size: 10px;
+  }
+  .hanime{
+    height: 5vh;
+    width: 40vh;
+    top: -268px;
+    left: 25vw;
+  }
+  .socials{
+    position: absolute;
+  left: -20px;
+  font-size: 10px;
+   
+  }
+  .header{
+  margin-left: 30px;
+  }
+  .nav-link{
+    padding: 0px;
+    font-size: 3px;
+  }
+
+ .logo{
+  height: 5vh;
+  margin-left: -20px;
+  
+  
+ }
+
+ .mainh{
+   margin-left: 70px;
+ }
+}
 
 
 
@@ -84,6 +119,11 @@ nav li{
   display: inline;
 }
 
+.thsr{
+  margin-left: -140px;
+  margin-right: -160px;
+  
+}
 
 .nav-link:hover{
   text-decoration: underline;
@@ -125,14 +165,18 @@ html, body {
   
 }
 
+
+
+
 .gani{
-  
-  z-index: 200;
-  position: absolute}
+  position: absolute;
+  z-index: 2000;
+ }
 
 .intro{
   color: #e9d8a6;
 }
+
 
 
 .nav{
@@ -145,8 +189,14 @@ html, body {
   
 }
 
+
+
 .border-top{
   border-top-color: rgba(234, 34, 122, 1);
+}
+
+.hanime{
+ margin-left: 50px;
 }
 
 .scrolled{
@@ -217,4 +267,9 @@ html, body {
 }
 
 
-
+.socials{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  
+}

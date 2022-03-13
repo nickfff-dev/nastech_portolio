@@ -7,62 +7,62 @@ class Home extends Component {
     constructor(props) {
         super(props)
 
-	}
-	
+    }
 	componentDidMount() {
 		const tl = anime.timeline({
-			easing: 'easeOutExpo',
-			duration: 1000
+			easing: 'easeInOutSine',
+		})
 
-		})
-		tl 
-        .add({
-            targets: "#Layer_2 path",
-            strokeDashoffset: [anime.setDashoffset, 0],
-            tranlateX: [0, 200],
-           easing: 'easeInOutSine',
-            duration: 1000,
-           
-        
-            direction: 'normal',
-            
-            loop: true
-		})
-		
+		tl
 		.add({
-            targets: "#Layer_3 polygon",
-            opacity: [0, 1],
-           easing: 'easeInOutSine',
-           duration: 1000,
-        
-        
+			targets: "#Layer_2 path",
+			strokeDashoffset: [anime.setDashoffset, 0],    
+        	easing: 'easeInOutSine',
+        	duration: 4000,
             direction: 'normal',
             
-            loop: true
+            
      })
-	 
+    .add({
+			targets: "#Layer_3 polygon",
+			opacity: [0, 1],
+            easing: 'easeInOutSine',
+            direction: 'normal',
+			loop: true,
+            
+	})
+		anime({
+			targets: "#Layer_3 polygon",
+			opacity: [0, 1],
+            easing: 'easeInOutSine',
+            direction: 'normal',
+			loop: true,
+            
+     })
  }
 
 
 
     render() {
         return (
-            <div className='col-sm-12'>
+            <div className='col-md-12'>
                 <div className='row no-gutters wah'>
 
-                    <div className='col-sm-4'>
-                        <h4> Intro</h4>
-                        <p className='text-left'>
-                            I am a Full Stack Web Developer with a passion for creating
-                            beautiful and intuitive user experiences. I have a
-                            background in Graphic Design and a love for creating
+                    <div className='col-md-4 kubwa'>
+						<h4> Intro</h4>
+						
+                        <p className='introtxt'>
+                            I am a Full Stack Web Developer with <br/> a passion for creating
+                            beautiful  <br/>and intuitive user experiences.<br/> I have a
+                            background in Graphic Design and <br/> a love for creating
                             beautiful and intuitive user experiences.
                         </p>
-                        <button className='btn btn-outline-secondary more  mt-5'> Read More</button>
+                        <button className='btn btn-outline-secondary more   mt-5'> Read More</button>
                     </div>
-                    <div className='col-sm-5 text-center'>
+                    <div className='col-md-4 hanime'>
 						<img src={yetu} alt='yetu' className='img-fluid gani' />
-						<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						
+						<svg version="1.1" id="Layer_3"  className=' gani' xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 447.3 355.9" enableBackground="new 0 0 447.3 355.9" xmlSpace="preserve">
 <path opacity="0.8" fill="#7C1DC9" enableBackground="new    " d="M371.9,193.7l3.3,1.9V188l-3.3-1.9V193.7z M377.2,196.7l3.3,1.9
 	v-14l-3.3-1.9V196.7z M382.4,179.4v20.3l3.3,1.9v-20.3L382.4,179.4z"/>
@@ -89,6 +89,9 @@ class Home extends Component {
 	<polygon fill="#7C1DC9" points="84.4,232 96.6,239 98.8,230.7 	"/>
 </g>
 </svg>
+
+
+
 
                        
 <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -653,7 +656,16 @@ class Home extends Component {
 </g>
 </svg>
                          
-                    </div>
+					</div>
+					<div className="col-md-3 mt-5 socials">
+						<ul>
+							<li>
+								<a href="https://twitter.com"><i className='fa pb-2 text-white fa-twitter'></i></a></li>
+								<li><a href="https://github.com"><i className='fa text-white pb-2 fa-github'></i></a></li>
+							<li><a href="https://linkedin.com"><i className='fa text-white pb-2 fa-linkedin'></i></a></li>
+							<li><a href="https://discord.com"><i className='fab text-white pb-4 fa-discord'></i></a></li>
+						</ul>
+					</div>
                     
                 </div>
                 

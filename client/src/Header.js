@@ -64,15 +64,15 @@ class Header extends React.Component{
         return(
           
             
-          <div className="col-md-12">
-            <div className="row mt-2" ref={this.maref3}>
+          <div className="col-md-12 mainh">
+            <div className="row thsr mt-2" ref={this.maref3}>
             <div className="col-md-6 logo" ref={this.mareF}>
               <h3 className="bird">Nas_Tech <span className="kadot" id="kadot">.</span></h3>
               </div>
              
              
 
-                <div className="col-md-6 " ref={this.maref2}>
+                <div className="col-md-6" ref={this.maref2}>
                 <ul className="nav">
                         <li className="pr-2 nav-link"> home</li>
                         <li className="pr-2 nav-link"> about</li>

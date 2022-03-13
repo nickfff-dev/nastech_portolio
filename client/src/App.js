@@ -38,16 +38,16 @@ class App extends React.Component {
         <Parallax
           bgImage={image3}
           bgImageAlt="image1"
-          strength={600}
+          strength={400}
           className="mb-4 njoo"
-          
+      
     
           
         
           
         
         >
-          <div style={{ height: "600px", width: "auto" }}>
+          <div style={{ height: "25vh", width: "auto" }}>
             
             <Home/>
             
@@ -57,12 +57,12 @@ class App extends React.Component {
         
         <Parallax
            bgImage={image2}
-          strength={600}
-          className ="mb-4"
+          strength={400}
+          className ="mb-4 njoo"
           
         
         >
-          <div style={{ height: "600px" }}>
+          <div style={{ height: "30vh", width: "auto" }}>
            
             <About/>
           </div>
@@ -73,11 +73,12 @@ class App extends React.Component {
         <Parallax
           bgImage={image1}
           bgImageAlt="image3"
-          strength={600}
+          strength={300}
+          className ="mb-4 njoo"
           
         
         > 
-          <div style={{ height: "600px" }} >
+          <div style={{ height: "30vh", width: "auto" }} >
           
             <About/>
          
