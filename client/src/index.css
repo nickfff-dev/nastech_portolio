@@ -3,6 +3,15 @@
   box-sizing: border-box;
 }
 
+html{
+  max-width: 1500px;
+}
+
+html, body {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
 
 
 
@@ -13,90 +22,22 @@ body {
   margin: auto;
   box-sizing: border-box;
   color: white;
-
-}
-
-.more{
-  color: white;
   
-  font-family: "Baloo 2", sans-serif;
-  
-}
-
-.wah{
-  padding: 150px 0px;
-  padding-bottom: 130px;
-  
-}
-
-@media screen and (max-width: 768px) {
-  .introtxt{
-    font-size: 10px;
-  }
-  .hanime{
-    height: 5vh;
-    width: 40vh;
-    top: -268px;
-    left: 25vw;
-  }
-  .socials{
-    position: absolute;
-  left: -20px;
-  font-size: 10px;
-   
-  }
-  .header{
-  margin-left: 30px;
-  }
-  .nav-link{
-    padding: 0px;
-    font-size: 3px;
-  }
-
- .logo{
-  height: 5vh;
-  margin-left: -20px;
-  
-  
- }
-
- .mainh{
-   margin-left: 70px;
- }
-}
-
-
-
-
-
-.bird{
-  font-weight: 900;
-  color: #fff;
-}
-
-.title{
-text-align: center;
-display: block;
-justify-content: center;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20 );
+  margin-top:10px;
 
 }
 
-.nav-link{
-  color:#fff;
-  text-transform: capitalize;
-  
-  font-size: 20px;
-}
-
-.subheading{
-  font-weight: 900;
-  font-style: italic;
-  color: #e9d8a6;
-  font-size: 20px;
 
 
 
-}
+
+
+
+
+
+
+
 
 
 
@@ -114,10 +55,7 @@ justify-content: center;
 
 }
 
-nav li{
-  list-style: none;
-  display: inline;
-}
+
 
 .thsr{
   margin-left: -140px;
@@ -125,151 +63,29 @@ nav li{
   
 }
 
-.nav-link:hover{
-  text-decoration: underline;
-  cursor: pointer;
-  color: white;
-}
-
-
-
-.wazi{
-  background: #ea227a;
-
-}
-
-
-
-
-.list-group-item{
-  background: transparent;
-  
-  color: #e9d8a6;
-}
 
 
 
 
 
-.list-group-item:hover{
-  background: transparent;
-  color: white;
- 
-}
-
-
-
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-  
-}
 
 
 
 
-.gani{
-  position: absolute;
-  z-index: 2000;
- }
-
-.intro{
-  color: #e9d8a6;
-}
 
 
 
-.nav{
-  display:flex;
-  justify-content: flex-end;
-  padding-right: 200px;
-  align-items: baseline;
-  
-  
-  
-}
 
 
 
-.border-top{
-  border-top-color: rgba(234, 34, 122, 1);
-}
 
-.hanime{
- margin-left: 50px;
-}
 
-.scrolled{
-
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  background: rgba(234, 34, 122, 0.8);
-  z-index: 10000;
-}
 .njoo{
   aspect-ratio: 16/9;
   
 }
-.scrolled2{
-  background: rgba(234, 34, 122, 0.8);
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  width: 100%;
-  z-index: 10000;
-}
 
 
-.kadot{
-  color:#ea227a;
-}
-
-.kadote2{
-  color: white;
-}
-
-.logo{
-  display:flex;
-  justify-content:flex-start;
-  padding-left: 130px;
- padding-bottom: 5px;
- 
-
-}
-
-.devicons:hover{
-  color: white;
-  
-}
-
-.navbar{
-  display: flex;
-  align-items: flex-end;
-}
-
-.skills{
-  color: #C4FCF0;
-}
-
-.techs li{
-  list-style: none;
-  color: #fff;
-  display: inline;
-  padding-right: 5px;
-
-  
-}
-
-.stack{
-  color: #fff
-}
 
 
-.socials{
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 40px;
-  
-}
+

@@ -1,6 +1,10 @@
 import React from "react";
-import Mania from "./Mania";
 
+import {
+  Col, Row, Container, 
+} from "react-bootstrap"
+
+import {Image} from "react-bootstrap"
 
 
 
@@ -14,45 +18,45 @@ class About extends React.Component {
 
   render() {
     return (
-
-      <div className='container-fluid  mt-5 '>
-        <div className="row">
-       
-            <ul className="techs col-md-4">
-              <h5 className="mb-1 stack">Front End</h5>
-              <li><span > Javascript</span></li>
-              <li><span> TypeScript</span></li>
-              <li><span> React</span></li>
-              <li><span> Vue</span></li>
-              <li><span> HTML5</span></li>
-              <li><span> CSS3</span></li>
-
-            </ul>
-          
-      
-            <ul className="techs col-md-4 ">
-              <h5 className="mb-1 stack text-center">Back End</h5>
-              <li><span>Nodejs</span></li>
-              <li><span>Express.js</span></li>
-              <li><span>MongoDB</span></li>
-              <li><span>Mongoose</span></li>
-              <li><span>Nodemailer</span></li>
-              <li><span>NodeGeocoder</span></li>
-            </ul>
-          
-          
-            <ul className="techs col-md-4">
-              <h5 className="mb-1 stack">Dev Ops</h5>
-              <li><span>Git</span></li>
-              <li><span>Github</span></li>
-              <li><span>Heroku</span></li>
-              <li><span>Digital Ocean</span></li>
-              <li><span>Cloudinary</span></li>
-              <li><span>AWS S3</span></li>
-            </ul>
+      <Container className="mb-4">
+        <h1 className='text-center mb-5'>Sample Works: </h1>
          
-        </div>
-      </div>
+          <Row>
+            <div className="d-flex align-items-center justify-content-around">
+            
+              <Col className='text-center'>
+                <Image src="https://source.unsplash.com/220x220/?github" thumbnail={true} alt="yetu" fluid={true} roundedCircle={true} />
+                <h4> project 1</h4>
+              <p className="card-text">a small description of the project
+              </p>
+              </Col>
+              <Col className='text-center'>
+                <Image src="https://source.unsplash.com/220x220/?website" thumbnail={true} alt="yetu" fluid={true} roundedCircle={true} />
+                <h4> project 2</h4>
+              <p className="card-text">a small description of the project</p>
+              </Col>
+              <Col className='text-center'>
+                <Image src="https://source.unsplash.com/220x220/?computer" thumbnail={true} alt="yetu" fluid={true} roundedCircle={true} />
+                <h4> project 3</h4>
+              <p className="card-text">a small description of the project</p>
+              </Col>
+              <Col className='text-center'>
+                <Image src="https://source.unsplash.com/220x220/?coding" thumbnail={true} alt="yetu" fluid={true} roundedCircle={true} />
+              <h4> project 4</h4>
+              <p className="card-text">a small description of the project</p>
+              
+              </Col>
+               
+
+              </div>
+       
+            
+         
+        </Row>
+      
+        
+</Container>
+     
     )
   }
 }
