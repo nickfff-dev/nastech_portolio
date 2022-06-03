@@ -29,7 +29,7 @@ class About extends React.Component {
 AUTOMATION</h1>
           <p>Python for scripts and automation</p>
         </div>
-        <a href="#">more</a>
+        <a href="https://github.com/nickfff-dev/tweetretweetlikereplywithfilterstweepybot">more</a>
         <div className="ico-card">
         <i className="fa fa-rebel"></i>
       </div>
@@ -42,7 +42,7 @@ AUTOMATION</h1>
 MAINTENANCE</h1>
           <p>Maintenance of already runnning websites</p>
         </div>
-        <a href="#">more</a>
+        <a href="https://wormwoodsociety.org/">more</a>
       <div className="ico-card">
         <i className="fa fa-codepen"></i>
       </div>
@@ -54,7 +54,7 @@ MAINTENANCE</h1>
           <h1>UX/UI WEBsite <br/>AND WEB app</h1>
           <p>User Interface and User Experience Development.</p>
         </div>
-        <a href="#">more</a>
+        <a href="https://portaldefi.com/">more</a>
       <div className="ico-card">
         <i className="fa fa-empire"></i>
       </div>
