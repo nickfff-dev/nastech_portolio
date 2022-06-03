@@ -18,41 +18,51 @@ class About extends React.Component {
 
   render() {
     return (
-      <Container className="mb-4">
-        <h1 className='text-center mb-5'>Sample Works: </h1>
-         
-          <Row>
-            <div className="d-flex align-items-center justify-content-around">
-            
-              <Col className='text-center'>
-                <Image src="https://source.unsplash.com/220x220/?github" thumbnail={true} alt="yetu" fluid={true} roundedCircle={true} />
-                <h4> project 1</h4>
-              <p className="card-text">a small description of the project
-              </p>
-              </Col>
-              <Col className='text-center'>
-                <Image src="https://source.unsplash.com/220x220/?website" thumbnail={true} alt="yetu" fluid={true} roundedCircle={true} />
-                <h4> project 2</h4>
-              <p className="card-text">a small description of the project</p>
-              </Col>
-              <Col className='text-center'>
-                <Image src="https://source.unsplash.com/220x220/?computer" thumbnail={true} alt="yetu" fluid={true} roundedCircle={true} />
-                <h4> project 3</h4>
-              <p className="card-text">a small description of the project</p>
-              </Col>
-              <Col className='text-center'>
-                <Image src="https://source.unsplash.com/220x220/?coding" thumbnail={true} alt="yetu" fluid={true} roundedCircle={true} />
-              <h4> project 4</h4>
-              <p className="card-text">a small description of the project</p>
-              
-              </Col>
-               
-
-              </div>
+      <Container className="mb-4 pt-5">
        
-            
-         
-        </Row>
+        <div className="container h-75">
+  <div className="row align-middle">
+    <div className="col-md-6 col-lg-4 column">
+      <div className="card gr-1">
+        <div className="txt">
+          <h1>SCRIPTING AND <br/>
+AUTOMATION</h1>
+          <p>Python for scripts and automation</p>
+        </div>
+        <a href="#">more</a>
+        <div className="ico-card">
+        <i className="fa fa-rebel"></i>
+      </div>
+      </div>
+    </div>
+    <div className="col-md-6 col-lg-4 column">
+      <div className="card gr-2">
+        <div className="txt">
+          <h1>Web Front-End <br/>
+MAINTENANCE</h1>
+          <p>Maintenance of already runnning websites</p>
+        </div>
+        <a href="#">more</a>
+      <div className="ico-card">
+        <i className="fa fa-codepen"></i>
+      </div>
+      </div>
+    </div>
+    <div className="col-md-6 col-lg-4 column">
+      <div className="card gr-3">
+        <div className="txt">
+          <h1>UX/UI WEBsite <br/>AND WEB app</h1>
+          <p>User Interface and User Experience Development.</p>
+        </div>
+        <a href="#">more</a>
+      <div className="ico-card">
+        <i className="fa fa-empire"></i>
+      </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
       
         
 </Container>

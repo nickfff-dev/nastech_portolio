@@ -15,7 +15,7 @@ class Home extends Component {
 
     render() {
         return (
-            <Container className="mb-5">
+            <Container className="mb-5 h-75">
                 <div className="d-flex flex-row align-items-center justify-content-evenly">
                            
                     <Container>
@@ -32,7 +32,9 @@ class Home extends Component {
                             background in Graphic Design and  a love for creating
                             beautiful and intuitive user experiences.
                         </p>
-						
+                        <div className="text-left">
+				<Devicons/>
+				</div>
                     </Container>
                     <Container className="mt-5">
 		             <img src={yetu} alt="yetu" className="img-fluid" />
@@ -41,9 +43,7 @@ class Home extends Component {
 					
                     
 				</div>
-				<div className="text-center">
-				<Devicons/>
-				</div>
+			
                 
                 
             </Container>

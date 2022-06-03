@@ -30,7 +30,7 @@ class Header extends React.Component{
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link >
+              <Nav.Link  >
                 
                  Home
     
